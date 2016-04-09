@@ -1,0 +1,62 @@
+.search-box {
+  border-radius: 0 0 3px 3px;
+  padding: 0 14px 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+input[type="hidden"],
+textarea,
+select {
+  width: 100%;
+}
+@media(max-width:767px) {
+  #section1-a, #section1-b {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #DDD;
+  }
+  #section1-c{
+    margin-bottom: 20px;
+  }
+
+  .grid-article {
+    border-bottom: 1px dashed #DDD;
+  }
+
+  #bottom1, #bottom2 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #666;
+  }
+
+}
+
+.menu-item .dropdown-toggle:after {
+  border: none;
+  right: auto;
+  bottom: auto;
+}
+
+#title-group {
+  padding: 26px 0;
+}
+
+@media(max-width:479px) {
+  #title-group {
+    padding-top: 0;
+  }
+}
